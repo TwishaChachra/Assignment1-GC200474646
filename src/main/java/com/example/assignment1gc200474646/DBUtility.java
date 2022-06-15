@@ -55,7 +55,7 @@ public class DBUtility {
 
         String sql = "SELECT title , Runtime "+
                 "FROM MoviesOnStreamingPlatforms "+
-                "LIMIT 10";
+                "limit 10";
 
         try(
                 Connection conn = DriverManager.getConnection(connectURL,user,password);

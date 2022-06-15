@@ -23,9 +23,9 @@
             <Button mnemonicParsing="false" onAction="#viewTable" text="Movie-Table" BorderPane.alignment="CENTER" />
          </bottom>
          <center>
-            <BarChart fx:id="barChart" BorderPane.alignment="CENTER">
+            <BarChart fx:id="barChart" animated="false" BorderPane.alignment="CENTER">
               <xAxis>
-                <CategoryAxis side="BOTTOM" tickLabelFill="#1dfd00" />
+                <CategoryAxis side="BOTTOM" tickLabelFill="#1100fc" />
               </xAxis>
               <yAxis>
                 <NumberAxis side="LEFT" tickLabelFill="#0dd41a" />

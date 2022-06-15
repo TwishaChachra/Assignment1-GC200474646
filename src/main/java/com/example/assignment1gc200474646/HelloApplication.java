@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
         ArrayList<Movies> movies = DBUtility.getMoviesFromDB();
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("charts-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Welcome To The World Of Entertainment!!");
         stage.setScene(scene);
         stage.show();
     }
