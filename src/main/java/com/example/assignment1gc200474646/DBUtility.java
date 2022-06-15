@@ -53,8 +53,9 @@ public class DBUtility {
     public static XYChart.Series<String, Integer> getRuntimeStats(){
         XYChart.Series<String, Integer> series = new XYChart.Series<>();
 
-        String sql = "SELECT title , Runtime" +
-                "FROM MoviesOnStreamingPlatforms";
+        String sql = "SELECT title , Runtime "+
+                "FROM MoviesOnStreamingPlatforms "+
+                "LIMIT 10";
 
         try(
                 Connection conn = DriverManager.getConnection(connectURL,user,password);
